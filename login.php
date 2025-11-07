@@ -9,10 +9,10 @@ session_start();
 // -------------------------------
 // CONFIGURATION
 // -------------------------------
- $databaseUrl = 'postgresql://card_chk_db_user:Zm2zF0tYtCDNBfaxh46MPPhC0wrB5j4R@dpg-d3l08pmr433s738hj84g-a.oregon-postgres.render.com/card_chk_db';
- $telegramBotToken = '8421537809:AAEfYzNtCmDviAMZXzxYt6juHbzaZGzZb6A';
- $telegramBotUsername = 'CardXchk_LOGBOT';
- $baseUrl = 'http://cxchk.site';
+ $databaseUrl = 'postgresql://neondb_owner:npg_qGVl1t9ygWeB@ep-lucky-fog-adgnfurh-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=requir';
+ $telegramBotToken = '8449023249:AAFy64heD351HNGMJYs8cR9-5GL76sM0iaE';
+ $telegramBotUsername = 'Wizchk_Bot';
+ $baseUrl = 'https://chkweb-2.onrender.com';
 
 // -------------------------------
 // DATABASE CONNECTION
@@ -138,7 +138,7 @@ if (isset($_SESSION['user'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>𝑪𝑨𝑹𝑫 ✘ 𝑪𝑯𝑲 • Portal</title>
+    <title>𝑪𝑨𝑹𝑫 �? 𝑪𝑯𝑲 �? Portal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
@@ -768,7 +768,7 @@ if (isset($_SESSION['user'])) {
                     <img src="https://cxchk.site/assets/branding/cardxchk-mark.png" alt="Card X Chk">
                 </div>
             </div>
-            <div class="brand-text">𝑪𝑨𝑹𝑫 ✘ 𝑪𝑯𝑲</div>
+            <div class="brand-text">𝑪𝑨𝑹𝑫 �? 𝑪𝑯𝑲</div>
         </div>
 
         <div class="login-card">
