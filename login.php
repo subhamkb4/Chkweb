@@ -9,10 +9,10 @@ session_start();
 // -------------------------------
 // CONFIGURATION
 // -------------------------------
- $databaseUrl = 'postgresql://neondb_owner:npg_qGVl1t9ygWeB@ep-lucky-fog-adgnfurh-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=requir';
+ $databaseUrl = 'postgresql://neondb_owner:npg_qGVl1t9ygWeB@ep-lucky-fog-adgnfurh-pooler.c-2.us-east-1.aws.neon.tech/neondb';
  $telegramBotToken = '8449023249:AAFy64heD351HNGMJYs8cR9-5GL76sM0iaE';
  $telegramBotUsername = 'Wizchk_Bot';
- $baseUrl = 'https://chkweb-2.onrender.com';
+ $baseUrl = 'https://chkweb-3.onrender.com';
 
 // -------------------------------
 // DATABASE CONNECTION
